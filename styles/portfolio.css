@@ -72,12 +72,17 @@ nav li{
     font-size: 18px;
     margin-bottom: 30px;
 }
+
+/* main section */
  
+
+
 /* about section design */
+
 
 .about{
     
-    margin: 130px 230px;
+   
     border-radius: 10px;
     background-color: #FFF8F3;
     border: 1px solid #FFF8F3;
@@ -85,11 +90,12 @@ nav li{
     text-align: center;
 }
 .section-tittle{
-    
+    margin: 130px 230px 0px 230px;
     padding-bottom: 30px;
     font-size: 35px;
-    font-weight: 900px;
+    font-weight: 700px;
     color: #181818;
+    text-align: center;
 
 }
 .section-description{
@@ -113,34 +119,29 @@ nav li{
     font-weight: 700;
 }
 /* What I Do Section */
-.what-i-do{
-    
-    border-radius: 10px;
-    background-color: #FFF8F3;
-    border: 1px solid #FFF8F3;
-    padding: 0px 150px;
-    text-align: center;
+
+
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
 }
+
 
 .skills-container{
     display: flex;
-    padding-top: 30px;
-    justify-content: space-around;
-}
-.skill{
-    text-align: left;
-    margin-right: 57px;
+    gap: 24px;
 }
 .skill-tittle{
+    font-size: 20px;
+    font-weight: 700;
     padding-top: 40px;
     padding-bottom: 20px;
 }
 .skill-description{
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    color: var(--dark-03, #757575);
+    color: #757575;
     font-size: 16px;
-    text-align: left;
-
 }
+
+/* resume  */
