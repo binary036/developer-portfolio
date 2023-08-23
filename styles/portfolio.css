@@ -75,7 +75,9 @@ nav li{
 
 /* main section */
  
-
+main{
+    margin: 130px 230px;
+}
 
 /* about section design */
 
@@ -144,4 +146,75 @@ nav li{
     font-size: 16px;
 }
 
-/* resume  */
+/* resume tyle */
+.resume-experience-education{
+    display: flex;
+ }
+ 
+ .resume-tittle{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 100px;
+ }   
+ .resume-item{
+    padding:30px 70px 30px 0px;
+ }
+.resume .tittle{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.resume .sub-tittle{
+    
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.resume .description{
+    color: #757575;
+    padding-top: 20px;
+}
+.resume-button{
+   margin-top: 50px;
+    text-align: center;
+}
+
+/* Footer style */
+.footer{
+    display: flex;
+    margin-top: 250px;
+    background-color:#FFF8F3;
+     }
+a{
+    text-decoration: none;
+    padding-right: 25px;
+}
+.footer .tittle{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.footer .description{
+    color: #474747;
+    padding-right: 115px;
+
+}
+
+/* form design */
+
+
+input{
+    width: 461px;
+    height: 64px;
+   border-radius: 5px;
+}
+textarea{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+}
