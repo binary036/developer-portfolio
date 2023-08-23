@@ -84,25 +84,25 @@ main{
 
 .about{
     
-   
+    
     border-radius: 10px;
     background-color: #FFF8F3;
     border: 1px solid #FFF8F3;
-    padding: 210px 150px;
     text-align: center;
 }
+
 .section-tittle{
-    margin: 130px 230px 0px 230px;
-    padding-bottom: 30px;
+    padding-top: 130px;
     font-size: 35px;
     font-weight: 700px;
     color: #181818;
     text-align: center;
 
 }
+
 .section-description{
     text-align: center;
-    padding-bottom: 30px;
+    padding: 30px 150px;
     font-size: 18px;
     color: #757575;
 }
@@ -110,6 +110,7 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    padding: 30px 150px 130px 150px;
 }
 .info-tittle{
     font-size: 20px;
